@@ -1,301 +1,199 @@
-## Core latex/pdflatex auxiliary files:
-*.aux
-*.lof
-*.log
-*.lot
-*.fls
+# Compiled files
+*.o
+*.sdo
+*.so
+*.dll
+*.dat
+*.hex
+*.mem
+*.exe
 *.out
-*.toc
-*.fmt
-*.fot
-*.cb
-*.cb2
-.*.lb
 
-## Intermediate documents:
-*.dvi
-*.xdv
-*-converted-to.*
-# these rules might exclude image files for figures etc.
-# *.ps
-# *.eps
-# *.pdf
-
-## Generated if empty string is given at "Please type another file name for output:"
-.pdf
-
-## Bibliography auxiliary files (bibtex/biblatex/biber):
-*.bbl
-*.bcf
-*.blg
-*-blx.aux
-*-blx.bib
-*.run.xml
-
-## Build tool auxiliary files:
-*.fdb_latexmk
-*.synctex
-*.synctex(busy)
-*.synctex.gz
-*.synctex.gz(busy)
-*.pdfsync
-
-## Build tool directories for auxiliary files
-# latexrun
-latex.out/
-
-## Auxiliary and intermediate files from other packages:
-# algorithms
-*.alg
-*.loa
-
-# achemso
-acs-*.bib
-
-# amsthm
-*.thm
-
-# beamer
-*.nav
-*.pre
-*.snm
-*.vrb
-
-# changes
-*.soc
-
-# comment
-*.cut
-
-# cprotect
-*.cpt
-
-# elsarticle (documentclass of Elsevier journals)
-*.spl
-
-# endnotes
-*.ent
-
-# fixme
-*.lox
-
-# feynmf/feynmp
-*.mf
-*.mp
-*.t[1-9]
-*.t[1-9][0-9]
-*.tfm
-
-#(r)(e)ledmac/(r)(e)ledpar
-*.end
-*.?end
-*.[1-9]
-*.[1-9][0-9]
-*.[1-9][0-9][0-9]
-*.[1-9]R
-*.[1-9][0-9]R
-*.[1-9][0-9][0-9]R
-*.eledsec[1-9]
-*.eledsec[1-9]R
-*.eledsec[1-9][0-9]
-*.eledsec[1-9][0-9]R
-*.eledsec[1-9][0-9][0-9]
-*.eledsec[1-9][0-9][0-9]R
-
-# glossaries
-*.acn
-*.acr
-*.glg
-*.glo
-*.gls
-*.glsdefs
-*.lzo
-*.lzs
-*.slg
-*.slo
-*.sls
-
-# uncomment this for glossaries-extra (will ignore makeindex's style files!)
-# *.ist
-
-# gnuplot
-*.gnuplot
-*.table
-
-# gnuplottex
-*-gnuplottex-*
-
-# gregoriotex
-*.gaux
-*.glog
-*.gtex
-
-# htlatex
-*.4ct
-*.4tc
-*.idv
-*.lg
-*.trc
-*.xref
-
-# hyperref
-*.brf
-
-# knitr
-*-concordance.tex
-# TODO Uncomment the next line if you use knitr and want to ignore its generated tikz files
-# *.tikz
-*-tikzDictionary
-
-# listings
-*.lol
-
-# luatexja-ruby
-*.ltjruby
-
-# makeidx
-*.idx
-*.ilg
-*.ind
-
-# minitoc
-*.maf
-*.mlf
-*.mlt
-*.mtc[0-9]*
-*.slf[0-9]*
-*.slt[0-9]*
-*.stc[0-9]*
-
-# minted
-_minted*
-*.pyg
-
-# morewrites
-*.mw
-
-# newpax
-*.newpax
-
-# nomencl
-*.nlg
-*.nlo
-*.nls
-
-# pax
-*.pax
-
-# pdfpcnotes
-*.pdfpc
-
-# sagetex
-*.sagetex.sage
-*.sagetex.py
-*.sagetex.scmd
-
-# scrwfile
-*.wrt
-
-# svg
-svg-inkscape/
-
-# sympy
-*.sout
-*.sympy
-sympy-plots-for-*.tex/
-
-# pdfcomment
-*.upa
-*.upb
-
-# pythontex
-*.pytxcode
-pythontex-files-*/
-
-# tcolorbox
-*.listing
-
-# thmtools
-*.loe
-
-# TikZ & PGF
-*.dpth
-*.md5
-*.auxlock
-
-# titletoc
-*.ptc
-
-# todonotes
-*.tdo
-
-# vhistory
-*.hst
-*.ver
-
-# easy-todo
-*.lod
-
-# xcolor
-*.xcp
-
-# xmpincl
-*.xmpi
-
-# xindy
-*.xdy
-
-# xypic precompiled matrices and outlines
-*.xyc
-*.xyd
-
-# endfloat
-*.ttt
-*.fff
-
-# Latexian
-TSWLatexianTemp*
-
-## Editors:
-# WinEdt
-*.bak
-*.sav
-
-# Texpad
-.texpadtmp
-
-# LyX
-*.lyx~
-
-# Kile
+# Vivado files
+*.jou
+*.log
+*.str
 *.backup
+*.sdk
+*.hdf
+*.bit
+*.runs
+*.srcs
+*.xpr
+*.ltx
+*.tmp
+*_bd.tcl
+*.gb
+*.hw
+*.xgui
 
-# gummi
-.*.swp
+# Quartus files
+*.sopcinfo
+*.summary
+*.pin
+*.qws
+*.qws_project
+*.rpt
+*.sld
+*.sopc
+*.qdf
+*.qpf
+*.qsf
+*.svf
+*.srf
+*.qip
+*.cpf
+*.vho
+*.vhm
+*.hpo
+*.tcl
+*.sdo
+*.jdi
 
-# KBibTeX
-*~[0-9]*
+# ModelSim files
+*.mti
+*.mtl
+*.mtb
+*.wlf
+*.log
+*.history
+*.lck
+*.do
+*.bak
+*.key
+*.state
+*.mpf
 
-# TeXnicCenter
-*.tps
+# Mentor Graphics files
+*.amap
+*.aps
+*.cmp
+*.dsn
+*.lic
+*.syn
+*.mrp
+*.mtxt
+*.sdf
+*.dll
+*.pdll
+*.xltx
+*.xmr
+*.xrpt
+*.log
+*.xw1
+*.finfo
+*.prj
+*.sv*
+*_rpts
 
-# auto folder when using emacs and auctex
-./auto/*
-*.el
+# Aldec Riviera-PRO files
+*.bak
+*.bakdir
+*.bakstate
+*.bdeb
+*.bdebstate
+*.cfg
+*.dbg
+*.fdo
+*.mbt
+*.rc
+*.rep
+*.rtt
+*.rwc
+*.rtf
+*.sig
+*.vcd
+*.wlf
+*.sym
+*.pdf
+*.mpf
+*.csv
+*.dat
+*.log
+*.rps
 
-# expex forward references with \gathertags
-*-tags.tex
-
-# standalone packages
-*.sta
-
-# Makeindex log files
-*.lpz
-
-# xwatermark package
-*.xwm
-
-# REVTeX puts footnotes in the bibliography by default, unless the nofootinbib
-# option is specified. Footnotes are the stored in a file with suffix Notes.bib.
-# Uncomment the next line to have this generated file ignored.
-#*Notes.bib
+# Generic VHDL files
+*.vcd
+*.vhd
+*.vhdl
+*.vho
+*.ucf
+*.xdc
+*.prj
+*.do
+*.bit
+*.syr
+*.cf
+*.ngc
+*.xrpt
+*.xrpt
+*.rpt
+*.bld
+*.html
+*.xise
+*.ise
+*.drc
+*.xml
+*.tcf
+*.ucf
+*.log
+*.ncf
+*.asy
+*.obj
+*.xwpgui
+*.gise
+*.xmsgs
+*.pcf
+*.csv
+*.bgn
+*.sim
+*.lso
+*.psr
+*.xpe
+*.xpe_state
+*.uns
+*.gise
+*.xpe_state
+*.o
+*.k26
+*.cxt
+*.dat
+*.dirs
+*.dll
+*.exe
+*.log
+*.txt
+*.lib
+*.slv
+*.syr
+*.dat
+*.kdb
+*.mif
+*.ngd
+*.ngc
+*.ngr
+*.ngt
+*.pad
+*.par
+*.pcf
+*.prf
+*.ptwx
+*.ptwx
+*.ptwx
+*.ptwx
+*.pad
+*.bgn
+*.drc
+*.wbb
+*.rbf
+*.csv
+*.pbb
+*.unroutes
+*.asc
+*.bgn
+*.bit
+*.bin
+*.err
+*.hhd
+*.msg
+*.msm
