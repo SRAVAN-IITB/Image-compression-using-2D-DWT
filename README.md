@@ -1,8 +1,8 @@
-# Image Compression using 2D DWT with Haar Wavelet Basis Function
+# Image Compression using 2D Discrete Wavelet Transform
 
 ## Overview
 
-This GitHub repository contains the complete project files for implementing image compression using 2D discrete wavelet transform (DWT) with the Haar wavelet basis function, a voluntary project taken up by us at the end of our Digital Lab course (`EE214`) at **IIT Bombay**. The project employs the _filter-bank implementation technique_ for efficient image processing.
+This GitHub repository contains the complete project files for implementing image compression using 2D discrete wavelet transform (DWT), a voluntary project taken up by us at the end of our Digital Lab course (`EE214`) at **IIT Bombay**. The project employs the _filter-bank implementation technique_ for efficient image processing.
 
 ## Team
 * [Sravan K Suresh](https://github.com/SRAVAN-IITB)
