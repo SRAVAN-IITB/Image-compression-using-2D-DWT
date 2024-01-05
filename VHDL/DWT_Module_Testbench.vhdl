@@ -1,0 +1,104 @@
+--library IEEE;
+--use IEEE.STD_LOGIC_1164.ALL;
+--use IEEE.STD_LOGIC_ARITH.ALL;
+--use IEEE.STD_LOGIC_UNSIGNED.ALL;
+--use IEEE.TEXTIO.ALL; -- Include the textio library
+--
+--entity DWT_Module_Testbench is
+--end DWT_Module_Testbench;
+--
+--architecture TB_ARCH of DWT_Module_Testbench is
+--    signal Clock : STD_LOGIC := '0';
+--    signal Reset : STD_LOGIC := '1';
+--    signal Input : STD_LOGIC_VECTOR(511 downto 0);
+--    signal Output : STD_LOGIC_VECTOR(511 downto 0);
+--    signal DWT_Valid : STD_LOGIC;
+--
+--    -- File declaration
+--    file hex_file : text open read_mode is "D:/IIT-B/E.E. DD/2nd Year/EE 214/Course_Project/twoD_DWT/arranged_pixels.hex"; -- Adjust the file path
+--
+--    -- Variables for reading data from the file
+--    variable hex_line : line;
+--    variable hex_data : std_logic_vector(7 downto 0);
+--    variable row_data : std_logic_vector(63 downto 0);
+--begin
+--    -- Clock Generation, Reset Generation, and DWT_Module instantiation (as shown in the previous example)
+--
+--    -- Read Data from Hex File
+--    read_hex_data: process
+--    begin
+--        for i in 0 to 8191 loop
+--            readline(hex_file, hex_line);
+--            read(hex_line, hex_data);
+--            -- Store hex_data in row_data
+--            row_data(i*8 + 7 downto i*8) := hex_data;
+--        end loop;
+--        Input <= row_data; -- Set Input signal with read data
+--        file_close(hex_file); -- Close the file when done
+--    end process;
+--
+--    -- Rest of the testbench code (as shown in the previous example)
+--end TB_ARCH;
+--
+--library IEEE;
+--use IEEE.STD_LOGIC_1164.ALL;
+--use IEEE.STD_LOGIC_ARITH.ALL;
+--use IEEE.STD_LOGIC_UNSIGNED.ALL;
+--
+--entity DWT_Top_Module_Testbench is
+--end DWT_Top_Module_Testbench;
+--
+--architecture TB_ARCH of DWT_Top_Module_Testbench is
+--    -- Constants and signals for your test
+--    constant CLOCK_PERIOD : time := 10 ns; -- Adjust the clock period as needed
+--    signal Clock : STD_LOGIC := '0';
+--    signal Reset : STD_LOGIC := '1';
+--    signal Input : STD_LOGIC_VECTOR(63 downto 0); -- Define your input data here
+--    signal Output : STD_LOGIC_VECTOR(63 downto 0);
+--    signal DWT_Valid : STD_LOGIC;
+--
+--    -- Component instantiation
+--    component DWT_Top_Module
+--        Port (
+--            Input : in STD_LOGIC_VECTOR(63 downto 0);
+--            Output : out STD_LOGIC_VECTOR(63 downto 0);
+--            DWT_Valid : out STD_LOGIC
+--        );
+--    end component;
+--
+--    -- Clock generation process
+-- 
+--    begin
+--        while now < 1000 ms loop  -- Simulate for 1 second
+--            Clock <= not Clock;
+--            wait for CLOCK_PERIOD / 2;
+--        end loop;
+--        wait;
+--
+--
+--    -- Stimulus process
+--        wait for 5 ns; -- Wait for a short time before applying the input
+--
+--        -- Define your input data here
+--        Input <= (others => '0'); -- Replace with your actual input data
+--
+--        wait for 100 ns; -- Simulate for 100 ns
+--
+--        -- You can continue to apply different input patterns and simulate as needed
+--
+--        wait for 100 ns; -- Simulate for another 100 ns
+--
+--        -- End simulation
+--        wait for 1 ns;
+--        assert false report "Simulation complete" severity note;
+--        wait;
+--
+--    -- Instantiate the DWT_Top_Module
+--    DUT: DWT_Top_Module
+--        port map (
+--            Input => Input,
+--            Output => Output,
+--            DWT_Valid => DWT_Valid
+--        );
+--
+--end TB_ARCH;
