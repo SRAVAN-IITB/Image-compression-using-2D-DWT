@@ -8,7 +8,7 @@ This GitHub repository contains the complete project files for implementing imag
 * [Sravan K Suresh](https://github.com/SRAVAN-IITB)
 * [Vavilala Sathvik Reddy](https://github.com/sathvik-747)
 * [Swarup Dasharath Patil](https://github.com/)
-* [Tanish Anant Raghute](https://github.com/)
+* [Tanish Anant Raghute](https://github.com/Cove1)
 
 ## Project Description
 
