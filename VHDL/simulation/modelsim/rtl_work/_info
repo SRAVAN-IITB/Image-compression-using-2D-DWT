@@ -7,27 +7,27 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/simulation/modelsim
+Z0 dD:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/simulation/modelsim
 Eaveraging_module
-Z1 w1699649488
+Z1 w1704794869
 Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z6 8C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Averaging_Module.vhdl
-Z7 FC:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Averaging_Module.vhdl
+Z6 8D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Averaging_Module.vhdl
+Z7 FD:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Averaging_Module.vhdl
 l0
 L6
 VK6Y5joC[Jf[`GG]LoTPSc3
 !s100 j=NEA8miNd]P:HT8`EMUB0
 Z8 OV;C;10.5b;63
 33
-Z9 !s110 1699772999
+Z9 !s110 1705173916
 !i10b 1
-Z10 !s108 1699772999.000000
-Z11 !s90 -reportprogress|300|-2008|-work|work|C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Averaging_Module.vhdl|
-Z12 !s107 C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Averaging_Module.vhdl|
+Z10 !s108 1705173916.000000
+Z11 !s90 -reportprogress|300|-2008|-work|work|D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Averaging_Module.vhdl|
+Z12 !s107 D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Averaging_Module.vhdl|
 !i113 1
 Z13 o-2008 -work work
 Z14 tExplicit 1 CvgOpt 0
@@ -52,25 +52,25 @@ R12
 R13
 R14
 Edwt_module
-Z15 w1699656886
+Z15 w1705166346
 R2
 R3
 R4
 R5
 R0
-Z16 8C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/DWT_Module.vhdl
-Z17 FC:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/DWT_Module.vhdl
+Z16 8D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/DWT_Module.vhdl
+Z17 FD:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/DWT_Module.vhdl
 l0
-L8
-VmcX]ELiN==b81=BQd9B?l1
-!s100 VaH>5Iz<@[0DFJ[K:QTHU3
+L6
+VgoJ9lRMEZjWb^3K9L_?@:3
+!s100 fMB@7VA>T`2QYLRSm?0kH3
 R8
 33
-Z18 !s110 1699773000
+R9
 !i10b 1
-Z19 !s108 1699773000.000000
-Z20 !s90 -reportprogress|300|-2008|-work|work|C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/DWT_Module.vhdl|
-Z21 !s107 C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/DWT_Module.vhdl|
+R10
+Z18 !s90 -reportprogress|300|-2008|-work|work|D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/DWT_Module.vhdl|
+Z19 !s107 D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/DWT_Module.vhdl|
 !i113 1
 R13
 R14
@@ -79,18 +79,61 @@ R2
 R3
 R4
 R5
-DEx4 work 10 dwt_module 0 22 mcX]ELiN==b81=BQd9B?l1
-l44
-L19
-VLlf13]VHJRTS90P6?5jfM2
-!s100 ?F@V;nOiN^z^Z0lS_UnA@0
+DEx4 work 10 dwt_module 0 22 goJ9lRMEZjWb^3K9L_?@:3
+l45
+L30
+V]@cbj2^RI:hol73f3<7eA2
+!s100 ]l[gIG3@:d;nJeSTKCMEY1
 R8
 33
-R18
+R9
 !i10b 1
+R10
+R18
 R19
-R20
-R21
+!i113 1
+R13
+R14
+Esignalcontrol
+Z20 w1705169872
+R2
+R3
+R4
+R5
+R0
+Z21 8D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/SignalControl.vhdl
+Z22 FD:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/SignalControl.vhdl
+l0
+L6
+Vbz=^IB9gbkQHL_a4abb7<3
+!s100 gE6hIAX4Tji1UA6=TZVmP0
+R8
+33
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-2008|-work|work|D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/SignalControl.vhdl|
+Z24 !s107 D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/SignalControl.vhdl|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 13 signalcontrol 0 22 bz=^IB9gbkQHL_a4abb7<3
+l15
+L12
+Vn4YfmA3n3bR`3>9^lLkl=2
+!s100 9miHGD;3336V0WShNV[XT0
+R8
+33
+R9
+!i10b 1
+R10
+R23
+R24
 !i113 1
 R13
 R14
@@ -101,19 +144,19 @@ R3
 R4
 R5
 R0
-Z22 8C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Subtraction_Module.vhdl
-Z23 FC:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Subtraction_Module.vhdl
+Z25 8D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Subtraction_Module.vhdl
+Z26 FD:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Subtraction_Module.vhdl
 l0
 L6
 V]Ic>iLo4P7jAnaFmb3T_Q0
 !s100 mRi<MAUQ39SD_lL69fZ;L2
 R8
 33
-R18
+R9
 !i10b 1
-R19
-Z24 !s90 -reportprogress|300|-2008|-work|work|C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Subtraction_Module.vhdl|
-Z25 !s107 C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Subtraction_Module.vhdl|
+R10
+Z27 !s90 -reportprogress|300|-2008|-work|work|D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Subtraction_Module.vhdl|
+Z28 !s107 D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Subtraction_Module.vhdl|
 !i113 1
 R13
 R14
@@ -129,100 +172,79 @@ V[mj]?EG^R087eDJi6`3VY2
 !s100 =So2kW3kJH?J0aGMEB_G72
 R8
 33
-R18
+R9
 !i10b 1
-R19
-R24
-R25
+R10
+R27
+R28
 !i113 1
 R13
 R14
 Etestbench
-w1699657322
+Z29 w1705173879
+Z30 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
 R2
 R3
 R4
 R5
 R0
-8C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl
-FC:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl
+Z31 8D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Testbench.vhdl
+Z32 FD:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Testbench.vhdl
 l0
-L9
-V@2aMNf9;Iel;aY=@i446L3
-!s100 enmKdYSWUneTE?m9H<dYo2
+L8
+VSj0`]HnKaK>`cehb6AF9@1
+!s100 7dV3`:l<9L5Unh0LCP:io0
 R8
 33
-R18
+R9
 !i10b 1
-R19
-!s90 -reportprogress|300|-2008|-work|work|C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl|
-!s107 C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl|
+R10
+Z33 !s90 -reportprogress|300|-2008|-work|work|D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Testbench.vhdl|
+Z34 !s107 D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Testbench.vhdl|
 !i113 1
 R13
 R14
-Ewavelet_1d
-R1
+Abehave
+R30
 R2
 R3
 R4
 R5
-R0
-Z26 8C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Wavelet_1D.vhdl
-Z27 FC:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Wavelet_1D.vhdl
-l0
-L6
-V:F6K`dGjUd97D2;2n01CV3
-!s100 ^HH>SOdh10MzU0gaEdm4i1
+DEx4 work 9 testbench 0 22 Sj0`]HnKaK>`cehb6AF9@1
+l88
+L10
+Vc5:L[8]80L5z5Sz[DK>^P1
+!s100 0]_>hA^^<5IYMHnjgBzPg1
 R8
 33
-R18
+R9
 !i10b 1
-R19
-Z28 !s90 -reportprogress|300|-2008|-work|work|C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Wavelet_1D.vhdl|
-Z29 !s107 C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Wavelet_1D.vhdl|
-!i113 1
-R13
-R14
-Abehavioral
-R2
-R3
-R4
-R5
-DEx4 work 10 wavelet_1d 0 22 :F6K`dGjUd97D2;2n01CV3
-l38
-L15
-V3_;RzXeeO4VVW7=z0nAXb2
-!s100 KzKd_<TRT7;BQbGA]B9Z83
-R8
-33
-R18
-!i10b 1
-R19
-R28
-R29
+R10
+R33
+R34
 !i113 1
 R13
 R14
 Ewavelet_2d
-R1
+Z35 w1705165052
 R2
 R3
 R4
 R5
 R0
-Z30 8C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Wavelet_2D.vhdl
-Z31 FC:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Wavelet_2D.vhdl
+Z36 8D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Wavelet_2D.vhdl
+Z37 FD:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Wavelet_2D.vhdl
 l0
 L6
-V2N5<FjNcLX?4aX29H3]ZL0
-!s100 i?oDN398]elZhEKQhEPN30
+V@R@^Qh_?^Z`gm16?Q`k_61
+!s100 aU:HCKon?GG^^K9DI[O=m0
 R8
 33
-R18
+R9
 !i10b 1
-R19
-Z32 !s90 -reportprogress|300|-2008|-work|work|C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Wavelet_2D.vhdl|
-Z33 !s107 C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Wavelet_2D.vhdl|
+R10
+Z38 !s90 -reportprogress|300|-2008|-work|work|D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Wavelet_2D.vhdl|
+Z39 !s107 D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Wavelet_2D.vhdl|
 !i113 1
 R13
 R14
@@ -231,18 +253,18 @@ R2
 R3
 R4
 R5
-DEx4 work 10 wavelet_2d 0 22 2N5<FjNcLX?4aX29H3]ZL0
-l43
-L17
-V`LFO`EV23INLl2VObC0;[0
-!s100 ;B:C^=3I??MVB:mF1NCXI0
+DEx4 work 10 wavelet_2d 0 22 @R@^Qh_?^Z`gm16?Q`k_61
+l48
+L18
+VaQ8YO?XoHJcJIhlGKXcdJ1
+!s100 9W^EHN@o7I28Y:MQPT9843
 R8
 33
-R18
+R9
 !i10b 1
-R19
-R32
-R33
+R10
+R38
+R39
 !i113 1
 R13
 R14

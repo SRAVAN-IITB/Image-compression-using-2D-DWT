@@ -18,8 +18,7 @@ end entity Wavelet_2D;
 architecture Behavioral of Wavelet_2D is
     signal output1Averaging, output1Subtraction : STD_LOGIC_VECTOR(31 downto 0);
     signal output2Averaging, output2Subtraction : STD_LOGIC_VECTOR(31 downto 0);
-    signal dwtValidSignal : STD_LOGIC := '0'; -- Initialize to '0'
-
+  
     component Averaging_Module is
         Port (
             Clock : in STD_LOGIC;
@@ -39,6 +38,12 @@ architecture Behavioral of Wavelet_2D is
             Subtraction_Output : out STD_LOGIC_VECTOR(7 downto 0)
         );
     end component;
+	 
+	 component SignalControl is
+    Port ( clk : in STD_LOGIC;
+           rst : in STD_LOGIC;
+           output_signal : out STD_LOGIC);
+end component;
 
 begin
 
@@ -61,23 +66,21 @@ begin
     HH2 : Subtraction_Module port map (clock, reset, inputRow1(23 downto 16), inputRow2(23 downto 16), output2Subtraction(23 downto 16));
     HH3 : Subtraction_Module port map (clock, reset, inputRow1(15 downto 8), inputRow2(15 downto 8), output2Subtraction(15 downto 8));
     HH4 : Subtraction_Module port map (clock, reset, inputRow1(7 downto 0), inputRow2(7 downto 0), output2Subtraction(7 downto 0));
-
+    
+	 sig : SignalControl port map (clock,reset,dwtValid);
     process(clock, reset)
     begin
         if reset = '1' then
             -- Reset condition
             outputRow1 <= (others => '0');
             outputRow2 <= (others => '0');
-            dwtValidSignal <= '0'; -- Reset DWT valid signal
 
         elsif rising_edge(clock) then
             -- Output the results
             outputRow1 <= output1Averaging & output2Averaging;
             outputRow2 <= output1Subtraction & output2Subtraction;
-            dwtValidSignal <= '1'; -- Set DWT valid signal when output is valid
+
         end if;
     end process;
-
-    dwtValid <= dwtValidSignal;
 
 end Behavioral;

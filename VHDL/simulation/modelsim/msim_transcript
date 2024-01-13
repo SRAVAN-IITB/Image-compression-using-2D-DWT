@@ -1,4 +1,5 @@
-# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# Reading D:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
 # do twoD_DWT_run_msim_rtl_vhdl.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -7,13 +8,13 @@
 # vmap work rtl_work
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap work rtl_work 
-# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Copying D:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -2008 -work work {C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Averaging_Module.vhdl}
+# vcom -2008 -work work {D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Averaging_Module.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:39:59 on Nov 12,2023
-# vcom -reportprogress 300 -2008 -work work C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Averaging_Module.vhdl 
+# Start time: 00:55:16 on Jan 14,2024
+# vcom -reportprogress 300 -2008 -work work D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Averaging_Module.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -21,12 +22,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity Averaging_Module
 # -- Compiling architecture Behavioral of Averaging_Module
-# End time: 12:39:59 on Nov 12,2023, Elapsed time: 0:00:00
+# End time: 00:55:16 on Jan 14,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -2008 -work work {C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Subtraction_Module.vhdl}
+# vcom -2008 -work work {D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Subtraction_Module.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:40:00 on Nov 12,2023
-# vcom -reportprogress 300 -2008 -work work C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Subtraction_Module.vhdl 
+# Start time: 00:55:16 on Jan 14,2024
+# vcom -reportprogress 300 -2008 -work work D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Subtraction_Module.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -34,25 +35,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity Subtraction_Module
 # -- Compiling architecture Behavioral of Subtraction_Module
-# End time: 12:40:00 on Nov 12,2023, Elapsed time: 0:00:00
+# End time: 00:55:16 on Jan 14,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -2008 -work work {C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Wavelet_1D.vhdl}
+# vcom -2008 -work work {D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Wavelet_2D.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:40:00 on Nov 12,2023
-# vcom -reportprogress 300 -2008 -work work C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Wavelet_1D.vhdl 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity Wavelet_1D
-# -- Compiling architecture Behavioral of Wavelet_1D
-# End time: 12:40:00 on Nov 12,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -2008 -work work {C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Wavelet_2D.vhdl}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:40:00 on Nov 12,2023
-# vcom -reportprogress 300 -2008 -work work C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Wavelet_2D.vhdl 
+# Start time: 00:55:16 on Jan 14,2024
+# vcom -reportprogress 300 -2008 -work work D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Wavelet_2D.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -60,12 +48,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity Wavelet_2D
 # -- Compiling architecture Behavioral of Wavelet_2D
-# End time: 12:40:00 on Nov 12,2023, Elapsed time: 0:00:00
+# End time: 00:55:16 on Jan 14,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -2008 -work work {C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/DWT_Module.vhdl}
+# vcom -2008 -work work {D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/DWT_Module.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:40:00 on Nov 12,2023
-# vcom -reportprogress 300 -2008 -work work C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/DWT_Module.vhdl 
+# Start time: 00:55:16 on Jan 14,2024
+# vcom -reportprogress 300 -2008 -work work D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/DWT_Module.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -73,34 +61,314 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity DWT_Module
 # -- Compiling architecture Behavioral of DWT_Module
-# End time: 12:40:00 on Nov 12,2023, Elapsed time: 0:00:00
+# End time: 00:55:16 on Jan 14,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# 
-# vcom -2008 -work work {C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl}
+# vcom -2008 -work work {D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/SignalControl.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:40:00 on Nov 12,2023
-# vcom -reportprogress 300 -2008 -work work C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl 
+# Start time: 00:55:16 on Jan 14,2024
+# vcom -reportprogress 300 -2008 -work work D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/SignalControl.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity SignalControl
+# -- Compiling architecture Behavioral of SignalControl
+# End time: 00:55:16 on Jan 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -2008 -work work {D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Testbench.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:55:16 on Jan 14,2024
+# vcom -reportprogress 300 -2008 -work work D:/IIT-B/E.E. DD/2nd Year/Autumn Semester/EE 214/New folder/Image-compression-using-2D-DWT/VHDL/Testbench.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package std_logic_textio
 # -- Compiling entity Testbench
-# -- Compiling architecture arch of Testbench
-# ** Error: C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl(32): near "file": syntax error
-# ** Error: C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl(50): (vcom-1136) Unknown identifier "hex_file".
-# ** Error: C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl(50): (vcom-1136) Unknown identifier "hex_line".
-# ** Error: C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl(51): (vcom-1136) Unknown identifier "hex_line".
-# ** Error: C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl(51): (vcom-1136) Unknown identifier "hex_data".
-# ** Error: C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl(54): (vcom-1136) Unknown identifier "row_data".
-# ** Error: C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl(58): near "div": (vcom-1576) expecting ')'.
-# ** Warning: C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl(62): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
-# ** Error: C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl(63): (vcom-1136) Unknown identifier "hex_file".
-# ** Error: C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl(74): VHDL Compiler exiting
-# End time: 12:40:00 on Nov 12,2023, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 1
-# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vcom failed.
-# Error in macro ./twoD_DWT_run_msim_rtl_vhdl.do line 14
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vcom failed.
-#     while executing
-# "vcom -2008 -work work {C:/Users/ASUS/Desktop/final_compressor/final_compressor/twoD_DWT/Testbench.vhdl}"
+# -- Compiling architecture Behave of Testbench
+# End time: 00:55:16 on Jan 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Testbench 
+# Start time: 00:55:16 on Jan 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.testbench(behave)
+# Loading work.dwt_module(behavioral)
+# Loading work.wavelet_2d(behavioral)
+# Loading work.averaging_module(behavioral)
+# Loading work.subtraction_module(behavioral)
+# Loading work.signalcontrol(behavioral)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LH4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/LH4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HH4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_1/HH4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LH4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/LH4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HH4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_2/HH4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LH4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/LH4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HH4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_3/HH4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LH4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/LH4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HL1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HL2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HL3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HL4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HH1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HH2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HH3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HH4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/uut/Wavelet_2D_4/HH4
+# End time: 00:56:46 on Jan 14,2024, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 128

@@ -8,14 +8,27 @@ entity DWT_Module is
         clock      : in  STD_LOGIC;
         reset      : in  STD_LOGIC;
         dwt_valid  : out STD_LOGIC;
-        inputRow   : in  STD_LOGIC_VECTOR(511 downto 0);
-        outputRow  : out STD_LOGIC_VECTOR(511 downto 0)
-    );
+        inputRow_1   : in  STD_LOGIC_VECTOR(63 downto 0);
+		  inputRow_2   : in  STD_LOGIC_VECTOR(63 downto 0);
+		  inputRow_3   : in  STD_LOGIC_VECTOR(63 downto 0);
+		  inputRow_4   : in  STD_LOGIC_VECTOR(63 downto 0);
+		  inputRow_5   : in  STD_LOGIC_VECTOR(63 downto 0);
+		  inputRow_6   : in  STD_LOGIC_VECTOR(63 downto 0);
+		  inputRow_7   : in  STD_LOGIC_VECTOR(63 downto 0);
+		  inputRow_8   : in  STD_LOGIC_VECTOR(63 downto 0);
+        outputRow_1  : out STD_LOGIC_VECTOR(63 downto 0);
+		  outputRow_2  : out STD_LOGIC_VECTOR(63 downto 0);
+		  outputRow_3  : out STD_LOGIC_VECTOR(63 downto 0);
+		  outputRow_4  : out STD_LOGIC_VECTOR(63 downto 0);
+		  outputRow_5  : out STD_LOGIC_VECTOR(63 downto 0);
+		  outputRow_6  : out STD_LOGIC_VECTOR(63 downto 0);
+		  outputRow_7  : out STD_LOGIC_VECTOR(63 downto 0);
+		  outputRow_8  : out STD_LOGIC_VECTOR(63 downto 0)
+		  );
 end entity DWT_Module;
 
 architecture Behavioral of DWT_Module is
     signal dwtValidSignal_i : std_logic_vector(3 downto 0) := (others => '0'); -- DWT valid signals for each instantiation
-    signal dwtValidSignal_i_temp : std_logic := '0'; -- Temporary DWT valid signal for the current instantiation
 
     component Wavelet_2D is
         Port (
@@ -30,34 +43,23 @@ architecture Behavioral of DWT_Module is
     end component;
 
 begin
-    DWT_Column: for i in 0 to 3 generate 
-
-        Col_instance : Wavelet_2D 
-            port map (
-                clock,
-                reset,
-                inputRow(64*(2*i) + 63 downto (64*(2*i))),
-                inputRow(64*((2*i) + 1) + 63 downto (64*((2*i)+1))),
-                outputRow(64*i + 63 downto (64*i)),
-                outputRow(64*(i + 4) + 63 downto (64*(i+4))),
-                dwtValidSignal_i_temp
-            );
-		dwtValidSignal_i(i) <= dwtValidSignal_i_temp;
-
-
-    process(clock, reset)
-    begin
-        if reset = '1' then
-            dwtValidSignal_i_temp <= '0'; -- Assuming DWT is not valid during reset
-        elsif rising_edge(clock) then
-            if dwt_valid = '1' then
-                dwtValidSignal_i_temp <= '1';
-            else
-                dwtValidSignal_i_temp <= '0';
-            end if;
-        end if;
-    end process;
-    end generate;
+--    DWT_Column: for i in 0 to 3 generate 
+--
+--        Col_instance : Wavelet_2D 
+--            port map (
+--                clock,
+--                reset,
+--                inputRow(64*(2*i) + 63 downto (64*(2*i))),
+--                inputRow(64*((2*i) + 1) + 63 downto (64*((2*i)+1))),
+--                outputRow(64*i + 63 downto (64*i)),
+--                outputRow(64*(i + 4) + 63 downto (64*(i+4))),
+--                dwtValidSignal_i(i)
+--            );	
+--    end generate;
+    Wavelet_2D_1 : Wavelet_2D port map (clock,reset,inputRow_1,inputRow_2,outputRow_1,outputRow_5,dwtValidSignal_i(0));
+    Wavelet_2D_2 : Wavelet_2D port map (clock,reset,inputRow_3,inputRow_4,outputRow_2,outputRow_6,dwtValidSignal_i(1));
+	 Wavelet_2D_3 : Wavelet_2D port map (clock,reset,inputRow_5,inputRow_6,outputRow_3,outputRow_7,dwtValidSignal_i(2));
+	 Wavelet_2D_4 : Wavelet_2D port map (clock,reset,inputRow_7,inputRow_8,outputRow_4,outputRow_8,dwtValidSignal_i(3));
 	 
     process(dwtValidSignal_i)
     begin
