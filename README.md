@@ -14,8 +14,8 @@ This GitHub repository contains the complete project files for implementing imag
 
 The project focuses on compressing images through a two-step process: row-wise and column-wise processing using the Haar wavelet basis function. The implementation is done using both MATLAB and Python for preprocessing, HDL (Hardware Description Language) for hardware implementation, and postprocessing using MATLAB and Python.\
 \
-Click on the adjacent link to view our project report &rarr; [Project Report](/report.pdf) \
-Click on the adjacent link to watch the video demonstration of our project &rarr; [Demo](https://youtube.com) 
+<!-- Click on the adjacent link to view our project report &rarr; [Project Report](/report.pdf) \ -->
+<!-- Click on the adjacent link to watch the video demonstration of our project &rarr; [Demo](https://youtube.com)  -->
 
 ## Implementation Techniques
 
